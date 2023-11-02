@@ -1,0 +1,35 @@
+---
+title: Welcome to nterac docs.
+description: The documentation of nterac.
+template: splash
+hero:
+  tagline: Create minimal HTTP API servers with nterac using Deno.
+  image:
+    alt: The Saturn
+    file: ../../assets/logo.svg
+  actions:
+    - text: Get started
+      link: ./quick-start/get-started/
+      icon: right-arrow
+      variant: primary
+    - text: Github
+      link: https://github.com/3sdf/nterac/
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Start new project" icon="rocket">
+		[View](./quick-start/clone-template/)
+	</Card>
+	<Card title="Learn the building blocks" icon="magnifier">
+		[View](./building-blocks/routes/)
+	</Card>
+	<Card title="Deploy to the cloud" icon="star">
+		[View](./deploy/get-started/)
+	</Card>
+	<Card title="Feedback and contribute" icon="error">
+		[View](./quick-start/feedback-and-contribute/)
+	</Card>
+</CardGrid>

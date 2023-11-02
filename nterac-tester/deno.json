@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run --unstable --allow-all main.ts",
+    "dev": "deno run --unstable --allow-all .nterac/dev.ts",
+    "preview": "deno run --unstable --allow-all .nterac/preview.ts"
+  },
+  "imports": {
+    "_/": "./",
+    "nterac/": "../nterac/"
+  }
+}
